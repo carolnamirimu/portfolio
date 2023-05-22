@@ -1,8 +1,42 @@
-
+:root{
+    --bg-color:#fbfbf9;
+    --btn-color: #6459c4;
+    --heading-font:  'playfair display',serif;
+}
 h1{
-    font-family: 'playfair display',serif;
+    font-family: var(--heading-font);
+    font-size: 100px;
     font-weight: bold;
 }
 p{
-    font-family: 'playfair display',serif;
+    font-family: 'poppins',sans-serif;
+   ;
+}
+.hero{
+    text-align: center;
+    background-color: var(--bg-color
+    );
+    padding: 160px;
+}
+.hero p {
+    font-size: 36px;
+    font-weight: bold;
+    color: #423f3f;
+    
+}
+.hero h2 {
+    
+    font-family: var(--heading-font);
+    font-weight: bold;
+    font-size: 24px;
+   
+}
+.btn-brand{
+    background-color: var(--btn-color);
+    border-radius: 4px;
+    color: white;
+    font-size: 20px;
+    line-height: 27px;
+    padding: 20px 25px;
+    margin: 40px;
 }
