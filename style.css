@@ -1,17 +1,15 @@
 :root{
     --bg-color:#fbfbf9;
     --btn-color: #6459c4;
-    --heading-font:  'playfair display',serif;
+    --heading-font:'Playfair Display', serif;
+    --seconday-font:'Poppins', sans-serif;
 }
 h1{
     font-family: var(--heading-font);
     font-size: 100px;
     font-weight: bold;
 }
-p{
-    font-family: 'poppins',sans-serif;
-   ;
-}
+   
 .hero{
     text-align: center;
     background-color: var(--bg-color
@@ -22,6 +20,7 @@ p{
     font-size: 36px;
     font-weight: bold;
     color: #423f3f;
+    font-family: var(--seconday-font);
     
 }
 .hero h2 {
@@ -29,6 +28,7 @@ p{
     font-family: var(--heading-font);
     font-weight: bold;
     font-size: 24px;
+    text-align: center;
    
 }
 .btn-brand{
@@ -37,6 +37,49 @@ p{
     color: white;
     font-size: 20px;
     line-height: 27px;
-    padding: 20px 25px;
+    padding: 16px 30px;
     margin: 40px;
+}
+.btn-secondary{
+    background-color: white;
+    border-radius: 4px;
+    color: var(--btn-color);
+    border-color: var(--btn-color);
+    font-size: 20px;
+    line-height: 27px;
+    padding: 16px 30px;
+    margin: 40px;
+
+}
+h2{
+    font-family: var(--heading-font);
+    font-size:70px;
+    font-weight: bold;
+   
+}
+.paragraph{
+    font-family: var(--seconday-font);
+    font-weight: normal;
+    line-height: 30px;
+    color: hsl(0, 1%, 52%);
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+@media(max-width:960px){
+    .detail{
+        padding:0;
+    }
+    h1 {
+        font-size: 80px;
+    
+    }
+}
+@media(max-width:900px){
+    .detail{
+        text-align: center;
+    }
+   
 }
