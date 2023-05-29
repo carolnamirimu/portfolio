@@ -57,6 +57,20 @@ h2{
     font-weight: bold;
    
 }
+.about-section h1{
+font-size: 64px;
+line-height: 80px;
+}
+
+.about-section h2{
+    font-size: 18px;
+    line-height: 80px;
+    font-family: var(--seconday-font);
+    font-weight: bolder;
+    }
+    .about-section p{
+            font-family: var(--seconday-font)
+        }
 .paragraph{
     font-family: var(--seconday-font);
     font-weight: normal;
@@ -67,6 +81,9 @@ h3{
     text-align: center;
     font-weight: 600;
     font-size: 20px;
+}
+.about-section img{
+    border-radius: 20px;
 }
 @media(max-width:960px){
     .detail{
