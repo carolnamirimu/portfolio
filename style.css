@@ -6,7 +6,7 @@
 }
 h1{
     font-family: var(--heading-font);
-    font-size: 100px;
+    font-size: 95px;
     font-weight: bold;
 }
    
@@ -19,7 +19,7 @@ h1{
 .hero p {
     font-size: 36px;
     font-weight: bold;
-    color: #423f3f;
+    color: #615d5d;
     font-family: var(--seconday-font);
     
 }
@@ -57,18 +57,34 @@ h2{
     font-weight: bold;
    
 }
-.about-section h1{
+.work h3{
+    margin-top: 15px;
+    font-size: 24px;
+    font-family: var(--seconday-font);
+    font-weight: 1000;
+    
+   
+}
+.work p{
+    line-height: 1;
+    font-size: 15px;
+    font-weight: bold;
+    color: #615d5d;
+    font-family: var(--seconday-font);
+    
+}
+.content-container h1{
 font-size: 64px;
 line-height: 80px;
 }
 
-.about-section h2{
+.content-container h2{
     font-size: 18px;
     line-height: 80px;
     font-family: var(--seconday-font);
     font-weight: bolder;
     }
-    .about-section p{
+    .content-container p{
             font-family: var(--seconday-font)
         }
 .paragraph{
@@ -82,7 +98,7 @@ h3{
     font-weight: 600;
     font-size: 20px;
 }
-.about-section img{
+.content-container img{
     border-radius: 20px;
 }
 @media(max-width:960px){
@@ -98,7 +114,7 @@ h3{
     .detail{
         text-align: center;
     }
-    .about-section{
+    .content-container{
         text-align: center;
     }
    
