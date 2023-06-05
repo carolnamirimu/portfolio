@@ -58,7 +58,7 @@ h2{
    
 }
 .work h3{
-    margin-top: 15px;
+    margin-top: 20px;
     font-size: 24px;
     font-family: var(--seconday-font);
     font-weight: 1000;
@@ -94,7 +94,6 @@ line-height: 80px;
     color: hsl(0, 1%, 52%);
 }
 h3{
-    text-align: center;
     font-weight: 600;
     font-size: 20px;
 }
