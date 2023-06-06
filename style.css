@@ -14,7 +14,7 @@ h1{
     text-align: center;
     background-color: var(--bg-color
     );
-    padding: 160px;
+    padding: 10px;
 }
 .hero p {
     font-size: 36px;
@@ -79,7 +79,11 @@ nav a{
     margin-left: 15px;
 }
 nav a:hover,
-nav a:active {
+nav a:active{
+    text-decoration: underline;
+    color: var(--btn-color);
+}
+nav li:active{
     text-decoration: underline;
     color: var(--btn-color);
 }
@@ -151,7 +155,7 @@ footer a{
     }
     footer h3{
         font-family: var(--heading-font);
-        font-size: 25px;
+        font-size: 33px;
     }
     footer p{
         font-family: var(--seconday-font);
